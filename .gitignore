@@ -48,5 +48,8 @@ memory/
 # Imagens/PDFs do hackathon (não são código)
 *.png
 *.pdf
+# Exceção: imagens de produção do frontend
+!sentinela-salvador/frontend/public/*.png
+!sentinela-salvador/frontend/public/*.ico
 prompt-documentacao.md
 make_logo.py
