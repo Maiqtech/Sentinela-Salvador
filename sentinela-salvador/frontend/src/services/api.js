@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const BASE = '/api'
+const BASE = import.meta.env.VITE_API_URL || '/api'
 
 export const fetchNeighborhoods = (date = '2016-01-17') =>
   axios.get(`${BASE}/neighborhoods/?date=${date}`).then(r => r.data)
