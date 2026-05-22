@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Django
+*.sqlite3
+*.log
+local_settings.py
+media/
+staticfiles/
+
+# ML models (grandes demais pra git)
+backend/ml/saved_models/*.pkl
+
+# Env
+.env
+.env.local
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Dataset (arquivo grande)
+01_DADOS_OFICIAIS-20260520T181803Z-3-001/
+
+# Memória interna
+memory/
+
+# Imagens/PDFs do hackathon (não são código)
+*.png
+*.pdf
+prompt-documentacao.md
+make_logo.py
